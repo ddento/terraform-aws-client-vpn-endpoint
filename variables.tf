@@ -1,9 +1,5 @@
-variable "aws_access_key" {}
-
-variable "aws_secret_key" {}
-
 variable "aws_region" {
-  default = "us-east-1"
+  default = "ap-southeast-2"
 }
 
 variable "client_cidr_block" {
